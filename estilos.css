@@ -4,6 +4,7 @@
     --fontGeneral: "Poppins", sans-serif;
     --fontDeveloper: "Nanum Gothic", sans-serif;
     --textosPequenios : 12px;
+    --font-Sizeh2: 32px;
 }
 *{
     margin: 0;
@@ -115,7 +116,7 @@ nav{
 }
 
 .redesContactosSec p{
-    font-size: var(--textosPequenios);
+    font-size: 10px;
     margin-right: 2px;
 
 }
@@ -128,16 +129,22 @@ nav{
 }
 
 .separador{
-    width: 1px ;
     height: 36px;
+    width: 0.1px ;
+    background-color: white;
+    border: 0.1px;
 }
 
 .separadorPeque{
-    width: 1px ;
+    width: 0.1px ;
     height: 18px;
     margin-left: 23px;
     margin-right: 14px;
+    background-color: white;
+    border: 0.1px;
 }
+
+
 
 .iconosRedes{
     width: 15px;
@@ -150,5 +157,42 @@ nav{
 .contenedorInformación{
     display: flex;
     flex-direction: column;
+}
+
+.contenedorInformación h2{
+    font-family: var(--fontDeveloper);
+    font-size: var(--font-Sizeh2);
+    text-transform: uppercase;
+}
+
+.sobreMi{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+}
+
+.divisorSobreMi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.sobreMi .divisorSobreMi h2{
+    width: 516px;
+    font-weight: normal;    
+    margin-bottom: 20px;
+}
+
+.sobreMi .divisorSobreMi p{
+    width: 570px;
+    font-size: var(--textosPequenios);
+    font-weight: 400;
+    font-family: var(--fontGeneral);
+    line-height: 159%;
 }
