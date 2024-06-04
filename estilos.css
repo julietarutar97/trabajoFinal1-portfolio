@@ -96,7 +96,7 @@ nav{
 .redesSocialesSection{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .redesSocialesSection ul p{
     font-size: var(--textosPequenios);
@@ -143,4 +143,12 @@ nav{
     width: 15px;
     height: 16px;
     margin-bottom: 5px;
+}
+
+/*Sector negro con información*/
+
+.contenedorInformación{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
