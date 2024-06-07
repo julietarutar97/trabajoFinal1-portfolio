@@ -281,7 +281,13 @@ h2{
     margin-left: 120px;
   }
 
-  .separadoresHabilidades div, form{
+  .separadoresHabilidades div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .separadoresHabilidades form{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -304,3 +310,51 @@ h2{
   .cargaHabilidades{
     margin-right: 15px;
   }
+
+  /*historial de experiencias*/
+  .experiencias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    width: 42%;
+    opacity: 0.9;
+}
+.trabajo {
+    margin-bottom: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    padding-bottom: 30px;
+    
+ }
+    
+.trabajo p{
+        font-size: var(--textosPequenios);
+        letter-spacing: 0.2px;
+        font-weight: 200;
+}
+
+.empresa {
+    padding-left: 20px;
+    font-size: var(--textosPequenios);
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom:5px;
+
+}
+.empresa::before{
+    content: "•";
+    color: rgba(255, 255, 255);
+    position: absolute;
+    left: -14px;
+    top: -6px;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.trabajo h3 {
+    margin: 10px 0;
+    font-size: var(--textosPequenios);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
