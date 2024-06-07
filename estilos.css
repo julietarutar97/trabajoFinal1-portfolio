@@ -385,7 +385,6 @@ h2{
 
 .galeria a{
     width: 400px;
-    background-color: red;
     background-image: url(./imagenes/Fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -411,6 +410,31 @@ h2{
     text-transform: uppercase;
     font-weight: 450;
     margin-top: 3px;
+}
+
+.separadoresHabilidades .botonVerMas{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+   
+
+}
+
+.botonVerMas a{
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid white;
+   padding: 10px 30px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: rgba(255, 255, 255,0.9);
+   font-size: 10px;
+   font-weight: 400;
+   font-family: var(--fontDeveloper);
+   letter-spacing: 1px;
 }
 
 .separadoresHabilidades .descripProyect{
