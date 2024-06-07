@@ -281,7 +281,7 @@ h2{
     margin-left: 120px;
   }
 
-  .separadoresHabilidades div{
+  .separadoresHabilidades div, form{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
