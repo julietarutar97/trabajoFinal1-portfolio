@@ -41,7 +41,7 @@ h2{
     font-family: var(--fontDeveloper);
     font-size: var(--font-Sizeh2);
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 550;
     width: 520px;   
     margin-bottom: 20px;
     letter-spacing: 1.5px;
@@ -126,8 +126,9 @@ nav{
 }
 .redesSocialesSection ul p{
     font-size: var(--textosPequenios);
-    font-weight: 400;
+    font-weight: 450;
     letter-spacing: 0.35px;
+    line-height: 2px;
 }
 
 .redesContactosSec{
@@ -189,6 +190,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 65px;
     
 }
 
@@ -249,7 +251,7 @@ nav{
 }
 
 div h4 {
-    margin-bottom: 10px;
+    margin: 5px 1px;
     text-transform: uppercase;
     font-weight: 400;
     font-size: var(--font-sizeCards);
@@ -262,6 +264,7 @@ div h4 {
     margin-bottom: 45px;
     margin-left: 22px;
     margin-right: 22px;
+    margin-top: 4px;
   }
 
   .card img{
