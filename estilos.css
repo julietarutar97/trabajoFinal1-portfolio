@@ -194,7 +194,18 @@ nav{
     
 }
 
+.imagenPerfil1{
+    width: 35%;
+    margin-left: -235px;
+}
 
+.imagenPerfil2{
+width: 50%;
+margin-right: -300px;
+margin-top: -450px;
+z-index: -1;
+
+}
 .contenedorInformación .divisores {
     display: flex;
     flex-direction: column;
@@ -204,6 +215,15 @@ nav{
     align-items: center;
 }
 
+.contenedorImagenes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+
+}
 
 .sobreMi .divisorSobreMi p{
     width: 570px;
