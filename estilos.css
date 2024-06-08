@@ -333,9 +333,57 @@ div h4 {
     margin-bottom: 20px;
   }
 
+
+  /*habilidades*/
   .cargaHabilidades{
     margin-right: 15px;
+    min-width: 400px;
   }
+
+  .cargaHabilidades .porcentaje{
+    margin-left:95%;
+    margin-top:-10px;
+    font-size: 10px;    
+    letter-spacing: 2px;
+  }
+
+  .barraCarga{
+    height: 3px;
+    width: 100%;
+    background-color: #181818;
+  }
+  .barraCargaDentro{
+    width: 98%;
+    margin: 0;
+    height: 8px;
+    margin-top:-2px;
+    background-color: #181818;
+  }
+
+  .CargaDentro1{
+    width: 98%;
+  }
+
+  .CargaDentro2{
+    width: 95%;
+  }
+
+  .CargaDentro3{
+    width: 85%;
+  }
+
+  .CargaDentro4{
+    width: 80%;
+  }
+
+  .CargaDentro5{
+    width: 60%;
+  }
+ .cargaHabilidades .tituloHabilidad{
+    margin: 30px 0 15px 0;
+    letter-spacing: 2px;
+  }
+
 
   /*historial de experiencias*/
   .experiencias {
@@ -556,66 +604,34 @@ form .botonMensaje{
     transform: translateX(-50%);
 }
 
-/*footer section{
+.logoFooter{
+    width:50%;
+    margin-top: 2px;
+}
+.contenedorIconosFot{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
 }
 
-footer section div{
+.contenedorIconosFot a{
+    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-}*/
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid  rgba(245, 245, 245, 0.2);
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin-left: -8px;
+}
 
-.cargaHabilidades{
-    margin-right: 15px;
-    min-width: 400px;
-  }
-
-  .cargaHabilidades .porcentaje{
-    margin-left:95%;
-    margin-top:-10px;
-    font-size: 10px;    
-    letter-spacing: 2px;
-  }
-
-  .barraCarga{
-    height: 3px;
-    width: 100%;
-    background-color: #181818;
-  }
-  .barraCargaDentro{
-    width: 98%;
-    margin: 0;
-    height: 8px;
-    margin-top:-2px;
-    background-color: #181818;
-  }
-
-  .CargaDentro1{
-    width: 98%;
-  }
-
-  .CargaDentro2{
-    width: 95%;
-  }
-
-  .CargaDentro3{
-    width: 85%;
-  }
-
-  .CargaDentro4{
-    width: 80%;
-  }
-
-  .CargaDentro5{
-    width: 60%;
-  }
- .cargaHabilidades .titulo-habilidad{
-    margin: 30px 0 15px 0;
-    letter-spacing: 2px;
-  }
-
-
+.contenedorIconosFot a img{
+    width: 15px;
+    height: 16px;
+}
