@@ -7,10 +7,11 @@
     --font-Sizeh2: 30px;
     --font-sizeCards: 16px;
 }
+/*
 *{
     margin: 0;
     padding: 0;
-}
+}*/
 body{
     font-family: var(--fontGeneral);
     color: white;
@@ -19,6 +20,34 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
+p{
+    line-height: 18px;
+    opacity: 0.8;
+}
+h1{
+    font-size: 70px;
+    margin-right: 20px;
+    font-family: var(--fontDeveloper);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h2{
+    font-family: var(--fontDeveloper);
+    font-size: var(--font-Sizeh2);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 520px;   
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+
 
 .section1{
     background-image:url(imagenes/FondoPrueba.png);
@@ -43,26 +72,17 @@ body{
     margin-top: 15px;
     margin-bottom: var(--marginBottomTitulosInicio);
 }
-h1{
-    font-size: 70px;
-    margin-right: 20px;
-    font-family: var(--fontDeveloper);
-}
-
-h3{
-    font-size: 18px;
-}
 .yo{
     font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .subitulo{
     font-size: 18px;
     margin-bottom: var(--marginBottomTitulosInicio);
 }
-/*.play{
-    font-size: 12px;
-    letter-spacing: 7%;
-}*/
+
+
 .playSection{
     display: flex;
     align-items: center;
@@ -100,11 +120,14 @@ nav{
     flex-direction: row;
     margin-bottom: 30px;
 }
+.redesSocialesSection ul{
+    margin:0px 2px;
+    padding-left: 2px;
+}
 .redesSocialesSection ul p{
     font-size: var(--textosPequenios);
     font-weight: 400;
     letter-spacing: 0.35px;
-    margin-bottom: 5px;
 }
 
 .redesContactosSec{
@@ -146,7 +169,6 @@ nav{
 }
 
 
-
 .iconosRedes{
     width: 15px;
     height: 16px;
@@ -161,12 +183,6 @@ nav{
     justify-content: center;
 }
 
-h2{
-    font-family: var(--fontDeveloper);
-    font-size: var(--font-Sizeh2);
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
 .sobreMi{
     display: flex;
@@ -176,22 +192,16 @@ h2{
     
 }
 
-.divisores {
+
+.contenedorInformación .divisores {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
     align-items: center;
-    /*margin-top: 80px;*/
-
 }
 
-/*.sobreMi .divisorSobreMi*/ h2{
-    width: 520px;   
-    margin-bottom: 20px;
-    letter-spacing: 1.5px;
-}
 
 .sobreMi .divisorSobreMi p{
     width: 570px;
@@ -214,6 +224,8 @@ h2{
     letter-spacing: 1.5px;
     font-size: var(--textosPequenios);
     color: rgba(255, 255, 255, 1);
+    width: 40%;
+
 }
 
 .contenedorCards{
@@ -236,9 +248,10 @@ h2{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.card h4 {
+div h4 {
     margin-bottom: 10px;
     text-transform: uppercase;
+    font-weight: 400;
     font-size: var(--font-sizeCards);
     letter-spacing: 1.44px;
     
@@ -257,10 +270,18 @@ h2{
     margin-bottom: 10px;
   }
 
-  .textoHero{
+  .divisores .textoHero{
     width: 568px;
     font-size: 12px;
     color: rgba(245, 245, 245, 0.9);
+    text-align: center;
+    word-spacing: 1.5px;
+    line-height: 18px;
+  }
+
+  .divisores h2{
+    text-align: center;
+    
   }
 
   .divisoresDos{
@@ -286,6 +307,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
   }
 
   .separadoresHabilidades form{
@@ -321,11 +343,14 @@ h2{
     width: 42%;
     opacity: 0.9;
 }
+.experiencias h2{
+    line-height: 15px;
+}
 .trabajo {
-    margin-bottom: 15px;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     padding-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
     
  }
     
@@ -333,6 +358,7 @@ h2{
         font-size: var(--textosPequenios);
         letter-spacing: 0.2px;
         font-weight: 200;
+        margin-top: 2px;
 }
 
 .empresa {
@@ -356,7 +382,6 @@ h2{
 }
 
 .trabajo h3 {
-    margin: 10px 0;
     font-size: var(--textosPequenios);
     font-weight: 400;
     letter-spacing: 2px;
@@ -377,7 +402,6 @@ h2{
     justify-content: space-between;
     align-content: center;
     margin-right: 15px;
-    background-color: blueviolet;
     flex-wrap: wrap;
     align-items: flex-start;;
 }
@@ -449,4 +473,26 @@ h2{
 .descripProyect div img{
     width: 40px;
     transform: rotate(-90deg);
+}
+
+/*FORMULARIO*/
+input, textarea{
+    margin: 10px 0px;
+    padding: 10px 5px;
+    background-color: #131313;
+    color: rgb(245, 245, 245);
+    font-family: var(--fontGeneral);
+    font-size: var(--textosPequenios);
+    border: 1px solid rgba(245, 245, 245, 0.2);
+    box-shadow: none;
+}
+
+textarea{
+    height: 150px;
+}
+
+form .botonMensaje{
+    margin-left: 200px;
+    border: 2px, solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
 }
