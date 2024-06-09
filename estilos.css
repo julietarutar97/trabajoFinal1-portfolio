@@ -65,15 +65,22 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: 250px;
+    margin-top: 190px;
     margin-left: 295px;
+}
 
+.sectionPresentacion h3{
+    margin: 10px 2px;
 }
 
 .titulo{
     display: flex;
-    margin-top: 15px;
+    margin: 0 5px;
     margin-bottom: var(--marginBottomTitulosInicio);
+}
+.titulo p{
+    margin-top: 10px;
+    margin-bottom: 16px;
 }
 .yo{
     font-weight: normal;
@@ -142,6 +149,7 @@ nav{
     align-content: flex-end;
     flex-wrap: wrap;
     margin-left: 230px;
+    margin-top: -25px;
 }
 
 .redesContactosSec p{
@@ -155,6 +163,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin-left: 22px;
+    margin-top: 15px;
 }
 
 .separador{
@@ -239,7 +248,7 @@ z-index: -1;
 
 .lineadivisoria{
     opacity: 0.1;
-    width: 941px;
+    width: 80%;
     margin-bottom: 85px;
     margin-top: 85px;
 }
@@ -326,8 +335,8 @@ div h4 {
     flex-wrap: wrap;
     text-align: left;
     justify-content: space-between;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
 
   .separadoresHabilidades div{
@@ -413,11 +422,8 @@ div h4 {
 
   /*historial de experiencias*/
   .experiencias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-right: 15px;
-    width: 42%;
+    width: 45%;
     opacity: 0.9;
 }
 .experiencias h2{
@@ -697,110 +703,3 @@ form .botonMensaje{
     height: 16px;
 }
 
-/*RESPONSIVE*/
-@media (max-width: 1440px){
-    h2{
-        font-size: var(--font-Sizeh2);
-    }
-   .separadoresHabilidades{
-    margin: 0 2px;
-   }
-   .separadoresHabilidades .galeria a{
-    width: 200px;
-   }
-}
-@media (max-width: 1920px){
- .logo{
-    /*width: 9%;*/
- }
-    h1{
-        font-size: 80px;
-        margin-right: 20px;
-        font-family: var(--fontDeveloper);
-        margin-top: 2px;
-        margin-bottom: 2px;
-    }
-  .section1{
-    background-color: #131313;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-h3{
-    font-size: 25px;
-}
-
-h2{
-    font-size: 40px;
-}
-div h4{
-    font-size: 20px;
-}
-.divisores .textoHero{
-    font-size: 16px;
-}
-.textoServices{
-    font-size: 16px;
-}
-.card p{
-    font-size: 16px;
-}
-.lineadivisoria{
-    width: 80%;
-}
-  nav{
-    font-size: 20px;
-  }
-
-.playSection{
-    font-size: 16px;
-}
-.iconoPlay{
-    width: 53px;
-}
-.redesSocialesSection ul p{
-    font-size: 15px;
-}
-.redesContactosSec p{
-    font-size: 12px;
-
-}
-
-.iconosRedes{
-    width: 25px;
-}
-
-/*HABILIDADES*/
-.titulohabilidades{
-    width: 350px;
-    
-}
-
-.cargaHabilidades{
-    width: 50%;
-}
-
-.cargaHabilidades .tituloHabilidad{
-    font-size: 16px;
-}
-
-.experiencias{
-    font-size: 18px;
-}
-
-.textosPequeniosFuertes{
-    font-size: 20px;
-}
-
-.separadoresHabilidades .galeria a{
-    width: 600px;
-}
-
-.separadoresHabilidades .botonVerMas a{
-    padding: 20px 60px;
-    font-size: 16px;
-}
-input, textarea{
-    font-size: 18px;
-}
-}

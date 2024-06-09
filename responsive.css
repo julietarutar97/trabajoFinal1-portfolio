@@ -3,18 +3,10 @@
 
 }
 @media (max-width: 480px){}
-@media (max-width: 768px){
-/* */}
-@media (max-width: 1024px){}
-@media (max-width: 1280px){
-/*Para tablets en modo paisaje y laptops pequeñas*/
-}
-@media (max-width: 1440px){}
-@media (max-width: 1920px){
 
-    .iconoInicio{
-    width: 50px;
-  }
+/*
+@media (max-width: 1920px){
+ /*
     h1{
         font-size: 80px;
         margin-right: 20px;
@@ -22,10 +14,202 @@
         margin-top: 2px;
         margin-bottom: 2px;
     }
-  .section1{
-    background-color: #131313;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+  
+    .galeria a{
+      width: 500px;
+    }
+h3{
+    font-size: 23px;
+}
+
+h2{
+    font-size: 35px;
+}
+div h4{
+    font-size: 20px;
+}
+
+.divisores .textoHero{
+    font-size: 16px;
+}
+.textoServices{
+    font-size: 16px;
+}
+.card p{
+    font-size: 16px;
+}
+.lineadivisoria{
+    width: 80%;
+}
+  nav{
+    font-size: 20px;
+  }
+
+.playSection{
+    font-size: 16px;
+}
+.iconoPlay{
+    width: 53px;
+}
+.redesSocialesSection ul p{
+    font-size: 15px;
+}
+.redesContactosSec p{
+    font-size: 12px;
+
+}
+
+.iconosRedes{
+    width: 25px;
+}
+
+
+.titulohabilidades{
+    width: 350px;
+    
+}
+
+.cargaHabilidades{
+    width: 50%;
+}
+
+.cargaHabilidades .tituloHabilidad{
+    font-size: 16px;
+}
+
+.experiencias{
+    font-size: 18px;
+}
+
+.textosPequeniosFuertes{
+    font-size: 20px;
+}
+
+.separadoresHabilidades .botonVerMas a{
+    padding: 20px 60px;
+    font-size: 16px;
+}
+input, textarea{
+    font-size: 18px;
+}
+}*/
+
+@media (max-width: 1440px){
+    h2{
+    font-size: var(--font-Sizeh2);
+  }
+  .separadoresHabilidades{
+  margin: 0 2px;
+  }
+
+  
+  }
+
+  
+@media (max-width: 1280px){
+  .itemFooter{
+    margin-right: 0px;
+    margin-left: 80px;
+  }
+  }
+
+@media (max-width: 1024px){
+  h1{
+    font-size: 50px;
+}
+  h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  nav{
+    font-size:  var( --textosPequenios);
+    }
+  
+    .divisoresDos, .divisorFooter{
+      padding: 5px 100px;
+    }
+    .experiencias{
+      width: 50%;
+    }
+    .lineadivisoria{
+      width: 800px;
+  }
+    .itemFooter{
+      margin-right: 0px;
+      margin-left: 80px;
+    }
+    .navFooter div{
+      margin: 2px 40px;
+    }
+    .navFooter div h5{
+      margin-top: 2px;
+      margin-bottom: 20px;
+    }
+    .navFooter div h5::before{
+      width: 40%;
+  }
+
+  .galeria a{
+    width: 360px;
   }
 }
+
+@media (max-width: 768px){
+  .redesContactosSec{
+    margin-left: 50px;
+  }
+  .lineadivisoria{
+    width: 550px;
+    margin: 50px 0;
+  }
+  .sectionPresentacion{
+    margin-left: 50px;
+  }
+
+  .iconosRedesSection ul, .iconosRedesSection .separador{
+    display: none;
+  }
+
+
+  .iconosRedes{
+    width: 25px;
+  }
+
+  .card{
+    margin-top: 25px;
+  }
+  .separadoresHabilidades{
+    flex-direction: column;
+    align-items: center;
+  }
+  .experiencias{
+    margin-top: 25px;
+    width: 85%;
+  }
+
+  .separadoresHabilidades .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div h4{
+    margin-top: 25px;
+  }
+  .itemFooter{
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .redesFooter{
+    display: flex;
+    flex-direction: row;
+  }
+  .navFooter{
+    margin-top: 30px;
+  }
+  }
+  
