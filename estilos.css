@@ -698,6 +698,17 @@ form .botonMensaje{
 }
 
 /*RESPONSIVE*/
+@media (max-width: 1440px){
+    h2{
+        font-size: var(--font-Sizeh2);
+    }
+   .separadoresHabilidades{
+    margin: 0 2px;
+   }
+   .separadoresHabilidades .galeria a{
+    width: 200px;
+   }
+}
 @media (max-width: 1920px){
  .logo{
     /*width: 9%;*/
