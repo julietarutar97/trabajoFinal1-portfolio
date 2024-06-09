@@ -6,6 +6,7 @@
     --textosPequenios : 12px;
     --font-Sizeh2: 30px;
     --font-sizeCards: 16px;
+    
 }
 /*
 *{
@@ -361,6 +362,7 @@ div h4 {
   .cargaHabilidades{
     margin-right: 15px;
     min-width: 400px;
+    width: 42%; /*a revisar*/
   }
 
   .cargaHabilidades .porcentaje{
@@ -693,4 +695,101 @@ form .botonMensaje{
 .contenedorIconosFot a img{
     width: 15px;
     height: 16px;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 1920px){
+ .logo{
+    /*width: 9%;*/
+ }
+    h1{
+        font-size: 80px;
+        margin-right: 20px;
+        font-family: var(--fontDeveloper);
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+  .section1{
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+h3{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 40px;
+}
+div h4{
+    font-size: 20px;
+}
+.divisores .textoHero{
+    font-size: 16px;
+}
+.textoServices{
+    font-size: 16px;
+}
+.card p{
+    font-size: 16px;
+}
+.lineadivisoria{
+    width: 80%;
+}
+  nav{
+    font-size: 20px;
+  }
+
+.playSection{
+    font-size: 16px;
+}
+.iconoPlay{
+    width: 53px;
+}
+.redesSocialesSection ul p{
+    font-size: 15px;
+}
+.redesContactosSec p{
+    font-size: 12px;
+
+}
+
+.iconosRedes{
+    width: 25px;
+}
+
+/*HABILIDADES*/
+.titulohabilidades{
+    width: 350px;
+    
+}
+
+.cargaHabilidades{
+    width: 50%;
+}
+
+.cargaHabilidades .tituloHabilidad{
+    font-size: 16px;
+}
+
+.experiencias{
+    font-size: 18px;
+}
+
+.textosPequeniosFuertes{
+    font-size: 20px;
+}
+
+.separadoresHabilidades .galeria a{
+    width: 600px;
+}
+
+.separadoresHabilidades .botonVerMas a{
+    padding: 20px 60px;
+    font-size: 16px;
+}
+input, textarea{
+    font-size: 18px;
+}
 }

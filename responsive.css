@@ -1,0 +1,31 @@
+/*Medidas standar de movile*/
+@media (max-width: 320px){
+
+}
+@media (max-width: 480px){}
+@media (max-width: 768px){
+/* */}
+@media (max-width: 1024px){}
+@media (max-width: 1280px){
+/*Para tablets en modo paisaje y laptops pequeñas*/
+}
+@media (max-width: 1440px){}
+@media (max-width: 1920px){
+
+    .iconoInicio{
+    width: 50px;
+  }
+    h1{
+        font-size: 80px;
+        margin-right: 20px;
+        font-family: var(--fontDeveloper);
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+  .section1{
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
