@@ -35,6 +35,8 @@ h1{
 
 h3{
     font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h2{
@@ -87,7 +89,8 @@ h2{
     display: flex;
     align-items: center;
     font-size: 12px;
-    letter-spacing: 7%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 nav{
     display: flex;
@@ -402,6 +405,7 @@ div h4 {
  .cargaHabilidades .tituloHabilidad{
     margin: 30px 0 15px 0;
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
 
@@ -480,7 +484,6 @@ div h4 {
 
 .galeria a{
     width: 400px;
-    background-image: url(./imagenes/Fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -493,7 +496,42 @@ div h4 {
     text-decoration: none;
     color: rgba(255, 255, 255);
 }
+.galeria a:hover p, .galeria a:hover h3 {
+    font-size: 110%;
+    transition: font-size 0.3s;
+}
 
+.galeria a:hover img {
+    font-size: 110%;
+    transition: font-size 0.3s;
+}
+
+.botonVerMas a:hover, .botonMensaje:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+.mecandoc{
+    background-image: url(./imagenes/appMecandoc.png);
+}
+
+
+.juegoCDC{
+    background-image: url(./imagenes/juegocdc.png);
+}
+
+.alquileres{
+    background-image: url(./imagenes/alquileres.png);
+    
+}
+
+.alquileres div, .mecandoc div{
+    color: #131313;
+}
+.mecandoc .descripProyect div{
+    color: #000000;
+  text-shadow: -1px -1px 2px #ffffff,  1px -1px 2px #ffffff, -1px 1px 2px #ffffff,1px 1px 2px #ffffff;
+}
 .galeria a p{
     letter-spacing: 1px;
     font-size: 10px;
@@ -566,6 +604,7 @@ form .botonMensaje{
     margin-left: 200px;
     border: 2px, solid rgba(255, 255, 255, 0.8);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /*FOOTER*/
