@@ -119,7 +119,7 @@ nav{
     font-weight: 300;
 }
 .logo{
-    width: 4%;
+    width: 14%;
 }
 .iconoPlay{
     width: 43px;
@@ -655,8 +655,16 @@ form .botonMensaje{
     flex-wrap: wrap;
     text-align: left;
     justify-content: space-between;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin: 0 100px;
+}
+.itemFooter .redesFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+.redesFooter div{
+    max-width: 200px;
 }
 .navFooter{
     display: flex;
@@ -705,7 +713,7 @@ form .botonMensaje{
 }
 
 .logoFooter{
-    width:50%;
+    width: 100px;
     margin-top: 2px;
 }
 .contenedorIconosFot{

@@ -271,7 +271,7 @@ input, textarea{
       font-size: 12px;
     }
     h1{
-      font-size: 30px;
+      font-size: 45px;
     }
     nav{
       display: flex;
@@ -281,58 +281,66 @@ input, textarea{
       margin-right: 5px;
       font-size: var(--textosPequenios);
   }
-    .navFooter, .iconoInicio,.redesSocialesSection ul, .separadorPeque, .playSection  {
+    .navFooter, .iconoInicio,.redesSocialesSection ul, .separadorPeque, .playSection, .redesContactosSec {
       display: none;
     }
     .playSection{
       font-size: 8px;
     }
+    .titulo{
+      display: flex;
+      flex-direction: column;
+    }
     .sectionPresentacion{
       margin-top: 15px;
       margin-left:15px
+    }
+    .sectionPresentacion p{
+      font-size: 12px;
+      margin-left: 5px;
     }
     .iconosRedesSection{
       flex-direction: row;
     }
 
-    .redesSocialesSection{
-      flex-direction: column;
+    .iconosRedesSection{
+      flex-direction: row;
       align-items: flex-start;
     }
-    .redesContactosSec{
+    /*.redesContactosSec{
       width: 100%;
       margin-top: 10px;
       flex-direction: column;
       flex-wrap: wrap;
       align-items: flex-start;
-
+      margin-left: 5px;
     }
     .redesContactosSec .contactosSec{
       margin:0;
       width: 100%;
       display: flex;
       flex-direction: row;
-
-    }
-    .redesContactosSec .contactosSec p{
-      margin-right: 5px;
+      
 
     }
     
     .redesContactosSec p{
     font-size: 15px;
-    }
+    }*/
     .lineadivisoria{
       width: 50%;
     }
     .section1{
-      /*background-image: none;*/ 
+      background-image: none;
+      margin-bottom: 10px;
+
     }
-  
       
 
     .sobreMi{
       align-items: center;
+      margin-top: 15px;
+    padding: 0 15px;
   
     }
     .cargaHabilidades{
