@@ -52,7 +52,7 @@ div h4{
 .iconoPlay{
     width: 53px;
 }
-.redesSocialesSection ul p{
+.redesSocialesSection li p{
     font-size: 15px;
 }
 .redesContactosSec p{
@@ -104,6 +104,9 @@ input, textarea{
   }
 .itemFooter{
   margin: 0 30px;
+}
+.sectionPresentacion{
+  margin-top: 70px;
 }
   
   }
@@ -197,7 +200,7 @@ input, textarea{
     margin-left: 50px;
   }
 
-  .iconosRedesSection ul, .iconosRedesSection .separador{
+  .iconosRedesSection li, .iconosRedesSection .separador{
     display: none;
   }
 
@@ -283,7 +286,7 @@ input, textarea{
       margin-right: 15px;
       font-size: var(--textosPequenios);
   }
-    .navFooter, .iconoInicio,.redesSocialesSection ul, .separadorPeque, .playSection, .redesContactosSec {
+    .navFooter, .iconoInicio,.redesSocialesSection li, .separadorPeque, .playSection, .redesContactosSec {
       display: none;
     }
     .playSection{

@@ -58,7 +58,7 @@ h2{
 
 
 .section1{
-    background-image:url(imagenes/FondoPrueba.png);
+    background-image:url(imagenes/imagenBack.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -105,6 +105,10 @@ h2{
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+.playSection a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.9);
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -122,7 +126,8 @@ nav{
     width: 14%;
 }
 .iconoPlay{
-    width: 43px;
+    width: 25px;
+    margin-right: 10px;
 }
 
 .iconoInicio {
@@ -136,11 +141,13 @@ nav{
     flex-direction: row;
     margin-bottom: 30px;
 }
-.redesSocialesSection ul{
+.redesSocialesSection li{
+    text-decoration: none;
+    list-style: none;
     margin:0px 2px;
     padding-left: 2px;
 }
-.redesSocialesSection ul p{
+.redesSocialesSection li p{
     font-size: var(--textosPequenios);
     font-weight: 450;
     letter-spacing: 0.35px;
@@ -162,11 +169,17 @@ nav{
 
 }
 
+.contactosSec .red{
+    font-weight: bolder;
+}
+
 .redesContactosSec p{
     font-size: 10px;
     margin-right: 2px;
 
 }
+
+
 .iconosRedesSection{
     display: flex;
     flex-direction: column;
@@ -406,15 +419,15 @@ div h4 {
   }
 
   .CargaDentro1{
-    width: 98%;
-  }
-
-  .CargaDentro2{
     width: 95%;
   }
 
+  .CargaDentro2{
+    width: 80%;
+  }
+
   .CargaDentro3{
-    width: 85%;
+    width: 60%;
   }
 
   .CargaDentro4{
@@ -655,7 +668,7 @@ form .botonMensaje{
     flex-wrap: wrap;
     text-align: left;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 0 45px;
 }
 .itemFooter .redesFooter{
     display: flex;
@@ -679,7 +692,7 @@ form .botonMensaje{
     margin: 2px 50px;
 }
 
-.navFooter div a{
+.navFooter div a, .navFooter div p{
     text-decoration: none;
     cursor: pointer;
     font-family: var(--fontGeneral);
@@ -688,6 +701,10 @@ form .botonMensaje{
     letter-spacing: 1.5px;
     line-height: 18px;
     opacity: 0.8;
+}
+
+.navFooter div p{
+    margin: 0;
 }
 
 .navFooter div h5{
@@ -711,7 +728,9 @@ form .botonMensaje{
     top: 10px;
     transform: translateX(-50%);
 }
-
+.navFooter div h5 :hover{
+    text-decoration:underline;
+}
 .logoFooter{
     width: 100px;
     margin-top: 2px;
