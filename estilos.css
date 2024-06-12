@@ -13,6 +13,11 @@
     margin: 0;
     padding: 0;
 }*/
+
+.titulos{
+    max-width: 100%;
+}
+
 body{
     font-family: var(--fontGeneral);
     color: white;
@@ -152,6 +157,11 @@ nav{
     margin-top: -25px;
 }
 
+.redesContactosSec .contactosSec{
+    display: flex;
+
+}
+
 .redesContactosSec p{
     font-size: 10px;
     margin-right: 2px;
@@ -194,7 +204,7 @@ nav{
 .contenedorInformación{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
 }
 
 
@@ -326,8 +336,10 @@ div h4 {
         justify-content: space-between;
         align-content: center;
         /*margin-top: 80px;*/
-        padding: 5px 200px;
+        padding: 5px 300px;
   }
+
+  
 
   .separadoresHabilidades{
     display: flex;
@@ -370,7 +382,6 @@ div h4 {
   /*habilidades*/
   .cargaHabilidades{
     margin-right: 15px;
-    min-width: 400px;
     width: 42%; /*a revisar*/
   }
 
@@ -428,6 +439,8 @@ div h4 {
 }
 .experiencias h2{
     line-height: 15px;
+    width: 100%;
+
 }
 .trabajo {
     border-left: 1px solid rgba(255, 255, 255, 0.1);
@@ -479,31 +492,48 @@ div h4 {
 }
 
 /*Galeria*/
-.separadoresHabilidades .galeria {
+.contenedorDiseños .galeria {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    margin-right: 15px;
     flex-wrap: wrap;
-    align-items: flex-start;;
+    align-items: flex-start;
 }
 
+.contenedorDiseños .contenedorGaleria {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.contenedorDiseños{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
 
 .galeria a{
-    width: 400px;
+    height: 725px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 500px;
-    margin-top: 20px;
+    margin-top: 42px;
     cursor: pointer;
     text-decoration: none;
     color: rgba(255, 255, 255);
+    flex-basis: 48%;
 }
+
 .galeria a:hover p, .galeria a:hover h3 {
     font-size: 110%;
     transition: font-size 0.3s;
@@ -525,6 +555,7 @@ div h4 {
 
 
 .juegoCDC{
+    margin-top: 50px;
     background-image: url(./imagenes/juegocdc.png);
 }
 
@@ -553,10 +584,12 @@ div h4 {
     margin-top: 3px;
 }
 
-.separadoresHabilidades .botonVerMas{
+.contenedorDiseños .botonVerMas{
     height: 75px;
+    width: 100%;
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: center;
     margin-top: 25px;
    
@@ -578,7 +611,7 @@ div h4 {
    letter-spacing: 1px;
 }
 
-.separadoresHabilidades .descripProyect{
+.contenedorDiseños .descripProyect{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

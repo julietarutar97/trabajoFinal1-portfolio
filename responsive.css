@@ -2,7 +2,7 @@
 @media (max-width: 320px){
 
 }
-@media (max-width: 480px){}
+
 
 /*
 @media (max-width: 1920px){
@@ -112,6 +112,19 @@ input, textarea{
     margin-right: 0px;
     margin-left: 80px;
   }
+  .divisoresDos, .divisorFooter{
+    padding: 5px 50px;
+    align-content: center;
+  }
+
+  .divisorFooter .itemFooter{
+    justify-content: space-evenly;
+    margin:0;
+  }
+
+  .separadoresHabilidades{
+    justify-content: space-around;
+  }
   }
 
 @media (max-width: 1024px){
@@ -129,8 +142,14 @@ input, textarea{
     }
   
     .divisoresDos, .divisorFooter{
-      padding: 5px 100px;
+      justify-content: center;
+      align-items: center;
     }
+    
+    .separadoresHabilidades{
+      width: 100%;
+    }
+
     .experiencias{
       width: 50%;
     }
@@ -154,6 +173,13 @@ input, textarea{
 
   .galeria a{
     width: 360px;
+  }
+  .separadoresHabilidades{
+    justify-content: space-between;
+  }
+
+  .contenedorDiseños{
+    width: 100%;
   }
 }
 
@@ -181,6 +207,13 @@ input, textarea{
   .card{
     margin-top: 25px;
   }
+
+  .contenedorInformacion{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
   .separadoresHabilidades{
     flex-direction: column;
     align-items: center;
@@ -195,6 +228,15 @@ input, textarea{
     flex-direction: column;
     align-items: center;
   }
+
+  .galeria a{
+    height: 465px;
+  }
+
+  .divisoresDos .separadoresHabilidades .titulohabilidades h2{
+    width: 100%;
+  }
+
   div h4{
     margin-top: 25px;
   }
@@ -212,4 +254,174 @@ input, textarea{
     margin-top: 30px;
   }
   }
+
+
+
+
+
+
+
+
   
+  @media (max-width: 480px){
+    h2{
+      font-size: 18px;
+    }
+    h3{
+      font-size: 12px;
+    }
+    h1{
+      font-size: 30px;
+    }
+    nav{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-left: 2px;
+      margin-right: 5px;
+      font-size: var(--textosPequenios);
+  }
+    .navFooter, .iconoInicio,.redesSocialesSection ul, .separadorPeque, .playSection  {
+      display: none;
+    }
+    .playSection{
+      font-size: 8px;
+    }
+    .sectionPresentacion{
+      margin-top: 15px;
+      margin-left:15px
+    }
+    .iconosRedesSection{
+      flex-direction: row;
+    }
+
+    .redesSocialesSection{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .redesContactosSec{
+      width: 100%;
+      margin-top: 10px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+    }
+    .redesContactosSec .contactosSec{
+      margin:0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+    }
+    .redesContactosSec .contactosSec p{
+      margin-right: 5px;
+
+    }
+    
+    .redesContactosSec p{
+    font-size: 15px;
+    }
+    .lineadivisoria{
+      width: 50%;
+    }
+    .section1{
+      /*background-image: none;*/ 
+    }
+  
+      
+
+    .sobreMi{
+      align-items: center;
+  
+    }
+    .cargaHabilidades{
+      margin-right: 15px;
+      min-width: none;
+      width: 42%; /*a revisar*/
+    }
+  .divisoresDos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+  .divisoresDos .separadoresHabilidades{
+    margin-left: 0;
+    margin-right: 0;  
+    text-align: center;  
+    max-width: 480px;
+  }
+
+  .galeria a{
+    height: 333px;
+  }
+  
+
+  .separadoresHabilidades .experiencias .empresa{
+    width: 100%;  
+  }
+  
+  .divisores{
+    width: 100%;
+  }
+  .divisores h2{
+    width: 100%;
+  }
+  .sobreMi .divisores .textoHero{
+    width: 100%;
+  }
+  .contenedorInformacion .divisoresDos h2{
+    width: 100%;
+  }
+
+  .sobreMi .contenedorImagenes{
+    display:none;
+  }
+
+  }
+
+
+
+
+
+
+
+  @media (max-width: 320px){
+    .redesContactosSec{
+      margin:0;
+      width: 100%;
+      margin-top: 10px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+    }
+    .redesContactosSec .contactosSec{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    .cargaHabilidades{
+      width: 300px;
+      margin: 0;
+    }
+
+    .galeria a{
+      flex-basis: 90%;
+      height: 417px;
+    }
+
+    .contenedorDiseños{
+      align-items: center;
+    }
+    .contenedorDiseños .galeria{
+      justify-content: center;
+    }
+
+  }
