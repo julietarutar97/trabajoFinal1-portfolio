@@ -412,6 +412,10 @@ input, textarea{
 
 
   @media (max-width: 320px){
+  
+    .titulo h1{
+      margin-right: 0;
+    }
     .redesContactosSec{
       margin:0;
       width: 100%;
@@ -443,6 +447,10 @@ input, textarea{
     }
     .contenedorDiseños .galeria{
       justify-content: center;
+    }
+
+    .separadoresHabilidades div form{
+      padding: 0 10px;
     }
 
   }
