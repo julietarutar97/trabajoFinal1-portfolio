@@ -108,7 +108,9 @@ input, textarea{
 .sectionPresentacion{
   margin-top: 70px;
 }
-  
+.linkMenu{
+  padding: 10px;
+}
   }
 
   
@@ -286,6 +288,10 @@ input, textarea{
       margin-right: 15px;
       font-size: var(--textosPequenios);
   }
+  .menuDesplegable{
+    right: 2px;
+    background-color: #131313;
+  }
     .navFooter, .iconoInicio,.redesSocialesSection li, .separadorPeque, .playSection, .redesContactosSec {
       display: none;
     }
@@ -455,5 +461,6 @@ input, textarea{
     .separadoresHabilidades div form{
       padding: 0 10px;
     }
+    
 
   }

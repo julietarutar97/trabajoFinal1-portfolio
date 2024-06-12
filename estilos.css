@@ -13,6 +13,9 @@
     margin: 0;
     padding: 0;
 }*/
+html {
+    scroll-behavior: smooth;
+}
 
 .titulos{
     max-width: 100%;
@@ -112,6 +115,7 @@ h2{
 nav{
     display: flex;
     justify-content: space-between;
+
     margin-top: 10px;
     margin-left: 80px;
     margin-right: 80px;
@@ -121,6 +125,36 @@ nav{
     text-decoration: none;
     color: white;
     font-weight: 300;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.menuDesplegable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    right: 95px;
+    top: 30px;
+    background-color: rgba(245, 245, 245, 0.05);
+    clip-path: circle(0% at top right);
+    transition: clip-path .4s;
+}
+.linkMenu{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    padding: 15px;
+    font-size: 16px;
+}
+.linkMenu:hover{
+    text-decoration: underline;
+}
+
+.menuDesplegable:target{
+    clip-path: circle(150% at top right);
 }
 .logo{
     width: 14%;
@@ -557,9 +591,8 @@ div h4 {
     transition: font-size 0.3s;
 }
 
-.botonVerMas a:hover, .botonMensaje:hover {
+.botonVerMas a:hover {
     transform: scale(1.2);
-    transition: transform 0.3s;
 }
 
 .mecandoc{
