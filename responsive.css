@@ -115,6 +115,9 @@ input, textarea{
 
   
 @media (max-width: 1280px){
+  .iconosRepetidos{
+    display: none;
+  }
 
   .divisoresDos, .divisorFooter{
     padding: 5px 50px;
@@ -347,7 +350,7 @@ input, textarea{
       width: 50%;
     }
     .section1{
-      background-image: none;
+      /*background-image: none;*/
       margin-bottom: 10px;
 
     }
