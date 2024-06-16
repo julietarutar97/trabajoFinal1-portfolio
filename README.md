@@ -9,7 +9,7 @@ La evolución y los archivos del proyecto pueden visualizarse en la rama master
 
 # Deploy
 El proyecto está desplegado en 
-https://github.com/julietarutar97
+(https://julietarutar97.github.io/trabajoFinal1-portfolio/)
 
 # Tecnologías Utilizadas
 •	HTML
